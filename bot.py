@@ -7,7 +7,8 @@ from datetime import datetime
 # ==============================
 # CONFIG — သင့် Token ထည့်ပါ
 # ==============================
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "သင့် Token ထည့်ပါ")
+BOT_TOKEN = "8128339594:AAFN8dMdZDxddMasbLJyyibEA4aWsN2rIPA"
+
 ADMIN_CHAT_ID = os.environ.get("ADMIN_CHAT_ID", "သင့် Chat ID ထည့်ပါ")
 
 bot = telebot.TeleBot(BOT_TOKEN)
